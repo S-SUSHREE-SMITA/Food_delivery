@@ -1,0 +1,38 @@
+.place-order{
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  gap: 40px;
+}
+
+.place-order-left,
+.place-order-right{
+  flex: 1;
+}
+
+.place-order-left input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.order-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.order-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.place-order-btn{
+  width: 100%;
+  padding: 10px;
+  background: tomato;
+  color: white;
+  border: none;
+}
